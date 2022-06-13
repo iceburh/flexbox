@@ -51,6 +51,43 @@ body {
     margin: 0 0 15px 0;
 }
 
+.title {
+
+    color: #445161;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.what {
+    padding: 50px 0;
+}
+
+.what__row {
+    display: flex;
+}
+
+.what__image {
+    flex: 0 0 430px;
+}
+
+.what__body {
+    flex: 1 1 auto;
+    padding: 0 0 0 38px;
+}
+
+.what__title {
+    margin: 0 0 33px 0;
+}
+
+.what__text {}
+
+.what__text p {
+    margin: 0 0 25px 0;
+    color: #333;
+    font-size: 16px;
+    line-height: 24px;
+}
+
 .hi__list li:last-child {
     margin: 0;
 }
